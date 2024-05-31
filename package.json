@@ -8,7 +8,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.11.0"
+    "chai": "^5.1.1",
+    "cypress": "^13.10.0",
+    "mocha": "^10.4.0"
   },
   "dependencies": {
     "aggregate-error": "^3.1.0",

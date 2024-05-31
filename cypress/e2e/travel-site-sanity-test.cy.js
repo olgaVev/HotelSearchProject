@@ -1,12 +1,16 @@
 
 ///<reference types = "Cypress"/>
 
-describe('The sanity test suite for travel site', () => {
-    it('navigate to main page', () => {
+describe
+(
+  'The sanity test suite for travel site', () => 
+  {
+    it('navigate to main page', () => 
+      {
       cy.visit('http://localhost:3000')
       cy.url().should('eq', 'http://localhost:3000/')
-      
-    })
+      }
+    )
     it('verify tab and elements on the page', () => {
       cy.visit('http://localhost:3000')
       cy.get('[data-cy="Hotels"]').should('be.visible')
@@ -27,4 +31,5 @@ describe('The sanity test suite for travel site', () => {
       
       
     })
-  })
+  }
+)
